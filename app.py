@@ -3,9 +3,9 @@ import streamlit as st
 from procesador import crear_excel, leer_archivo, transformar
 
 
-st.set_page_config(page_title="Marcaciones por día", page_icon="🕒", layout="wide")
-st.title("Seguimiento diario de marcaciones")
-st.caption("Convierte el reporte vertical del biométrico en una fila por funcionario y fecha.")
+st.set_page_config(page_title="GESE", page_icon="🕒", layout="wide")
+st.title("Seguimiento de marcaciones - GESE")
+st.caption("Convierte el reporte vertical del biométrico en una fila por persona y fecha.")
 
 archivo = st.file_uploader("Carga el reporte de marcaciones", type=["xls", "xlsx", "csv", "tsv", "txt"])
 
